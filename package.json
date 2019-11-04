@@ -1,0 +1,30 @@
+{
+  "name": "fdc-frontend",
+  "version": "1.0.0",
+  "description": "FDC - Frontend Admin MDB",
+  "author": "Jose Augusto Freire <jose@procyon.com.br>",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.19.0",
+    "google-map-react": "^1.1.5",
+    "local-ip-url": "^1.0.2",
+    "mdbreact": "^4.22.0",
+    "react": "^16.11.0",
+    "react-dom": "^16.11.0",
+    "react-router-dom": "^5.1.2",
+    "react-scripts": "^3.2.0",
+    "react-toast-notifications": "^2.2.5"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}
