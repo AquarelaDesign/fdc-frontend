@@ -1,6 +1,6 @@
-# FDC-FRONTEND
+# mdbreact-admin-template-free
 
-> fdc - Interface Web
+> MDB - React Admin Dashboard Free
 
 ## Build Setup
 

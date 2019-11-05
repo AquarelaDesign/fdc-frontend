@@ -35,7 +35,7 @@ export default function Login({ history }) {
       })
 
       if (response.data.valid) {
-        history.push('/home')
+        history.push('/dashboard')
       }
     }
 
@@ -65,7 +65,7 @@ export default function Login({ history }) {
       localStorage.setItem('@fdc/oficina', JSON.stringify(oficina))
       localStorage.setItem('@fdc/rememberMe', rememberMe)
 
-      history.push('/home')
+      history.push('/dashboard')
     } catch (error) {
       const { response } = error
       if (response !== undefined) {
